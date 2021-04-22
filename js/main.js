@@ -52,7 +52,7 @@ $("#assinatura-gold").click(function () {
         "Na escolha de 1 frasco (Envio todos os meses):"
       );
       $("#texto-assinatura").html(
-        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe todos os meses automaticamente um frasco de ClareGold </b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe todos os meses automaticamente um frasco de Q10 Gold </b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
       );
       // $("#texto-assinatura").css("background-color", "red");
       $(".botao-desconto").text("10% de desconto");
@@ -79,7 +79,7 @@ $("#assinatura-gold").click(function () {
         "Na escolha de 2 frascos (Envio a cada 2 meses):"
       );
       $("#texto-assinatura").html(
-        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada dois meses automaticamente dois frascos de ClareGold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada dois meses automaticamente dois frascos de Q10 Gold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
       );
       $(".botao-desconto").text("40% de desconto");
       $(".valor-antigo").text("R$ 399,80");
@@ -105,7 +105,7 @@ $("#assinatura-gold").click(function () {
         "Na escolha de 4 frascos (Envio a cada 4 meses):"
       );
       $("#texto-assinatura").html(
-        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada quatro meses automaticamente quatro frascos de ClareGold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+        "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada quatro meses automaticamente quatro frascos de Q10 Gold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
       );
       $(".botao-desconto").text("55% de desconto");
       $(".valor-antigo").text("R$ 599,70");
@@ -327,7 +327,7 @@ if ($("#assinatura-gold").hasClass("active")) {
       "Na escolha de 1 frasco (Envio todos os meses):"
     );
     $("#texto-assinatura").html(
-      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe todos os meses automaticamente um frasco de ClareGold </b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe todos os meses automaticamente um frasco de Q10 Gold </b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
     );
     $(".botao-desconto").text("10% de desconto");
     $(".valor-antigo").text("R$ 199,90");
@@ -353,7 +353,7 @@ if ($("#assinatura-gold").hasClass("active")) {
       "Na escolha de 2 frascos (Envio a cada 2 meses):"
     );
     $("#texto-assinatura").html(
-      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada dois meses automaticamente dois frascos de ClareGold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada dois meses automaticamente dois frascos de Q10 Gold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
     );
     $(".botao-desconto").text("40% de desconto");
     $(".valor-antigo").text("R$ 399,80");
@@ -379,7 +379,7 @@ if ($("#assinatura-gold").hasClass("active")) {
       "Na escolha de 4 frascos (Envio a cada 4 meses):"
     );
     $("#texto-assinatura").html(
-      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada quatro meses automaticamente quatro frascos de ClareGold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
+      "A Assinatura Gold é um plano mensal que dura de acordo com o período escolhido na hora da compra, nesse caso, <b>você recebe a cada quatro meses automaticamente quatro frascos de Q10 Gold</b>, referente ao seu plano, por um preço muito abaixo do comum e sempre com frete de valor fixo. Esse frasco é descontado automaticamente no seu cartão assim que o novo pedido é enviado para o endereço cadastrado."
     );
     $(".botao-desconto").text("55% de desconto");
     $(".valor-antigo").text("R$ 599,70");
