@@ -1,0 +1,532 @@
+/* FONT ROBOTO */
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
+
+.btn-primary.focus,
+.btn-primary:focus {
+  box-shadow: unset !important;
+}
+
+.btn.focus,
+.btn:focus {
+  outline: unset !important;
+  box-shadow: unset !important;
+}
+
+a:hover {
+  text-decoration: none !important;
+}
+
+/***** TOPO *******/
+.topo {
+  background-color: #000000;
+  padding: 1rem 0 1rem;
+}
+
+/*** INTRODUCTION ***/
+.introduction {
+  background-image: url(../img/topo_desktop.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0rem 0 1rem;
+}
+
+.introduction h1 {
+  color: #f9b133;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 0;
+}
+
+.introduction h1 + p {
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.introduction h1 + p + p {
+  color: #ffffff;
+  font-size: 22px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.destaque-topo {
+  background-color: #ffffff !important;
+  box-shadow: 0px 0px 10px #00000029 !important;
+}
+
+.destaque-topo h1 {
+  color: #f9b133;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.destaque-topo .descricao {
+  color: #646464;
+}
+
+.destaque-topo .avaliacao {
+  color: #9a9a9a;
+  font-size: 14px;
+}
+
+.destaque-topo .stars {
+  color: #f9b133;
+  font-size: 22px;
+  line-height: 22px;
+  margin-right: 5px;
+}
+
+.destaque-topo p {
+  color: #000000;
+  margin-top: 10px;
+}
+
+/**** ASSINATURA ****/
+
+.assinatura {
+  padding: 2rem 0 2rem;
+}
+
+.assinatura h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.icons-assinatura {
+  color: #f9b133;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.assinatura .sub-title {
+  color: #646464;
+  font-size: 16px;
+}
+
+.cards-assinatura {
+  padding: 20px 0 0;
+  border: 2px solid #f9b133 !important;
+  border-radius: 20px !important;
+}
+
+.texto-cards-assinatura {
+  font-size: 14px;
+}
+
+.botao-topo {
+  border-radius: 10px;
+  /* border: 2px solid #00F882 !important;
+  box-shadow: 0px 10px 19px 1px rgba(0, 0, 0, 0.3); */
+  max-width: 300px !important;
+  color: #ffffff;
+  height: 50px;
+  background-color: #00f882;
+  border: 2px solid #00f882;
+  font-size: 16px !important;
+  text-transform: uppercase !important;
+  font-weight: bold !important;
+}
+
+.seta-botao {
+  padding-right: 5px;
+  font-weight: bold !important;
+}
+
+.assinatura a {
+  color: #646464;
+  font-size: 12px;
+  text-decoration: underline;
+}
+
+/***** GARANTIA *******/
+.garantia h2 {
+  padding-top: 2rem;
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/***** BENEFÍCIOS DO VARIGOLD *******/
+.beneficios {
+  padding: 0rem 0 2rem;
+}
+
+.beneficios h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.beneficios h3 {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: clamp(16px, 16px, 34px);
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+.beneficios p {
+  color: #54595f;
+  font-family: "Roboto", Sans-serif;
+}
+
+/***** COMO VARIGOLD FUNCIONA *******/
+.como-varigold-funciona {
+  padding: 2rem 0 1rem;
+}
+
+.como-varigold-funciona h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.como-varigold-funciona p {
+  color: #54595f;
+  font-family: "Roboto", Sans-serif;
+}
+
+.como-varigold-funciona ul {
+  padding-left: 0;
+}
+
+.como-varigold-funciona ul li {
+  font-family: "Roboto", Sans-serif;
+  list-style: none;
+  color: #000000;
+  padding-bottom: 10px;
+}
+
+.como-varigold-funciona ul li i {
+  color: #23a455;
+  font-size: 16px;
+}
+
+.como-varigold-funciona .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+.como-varigold-funciona .img-container img {
+  max-height: 205px;
+  width: 100%;
+}
+
+/***** ANVISA *******/
+.anvisa {
+  background-color: #2a2a2a;
+  padding: 2rem 0 2rem;
+  color: #ffffff;
+  background-image: url(../img/fundo-preto-site-1630x783-1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.anvisa p {
+  font-family: "Roboto", Sans-serif;
+}
+
+.anvisa h2 {
+  color: #ffffff;
+  font-family: "Roboto", Sans-serif;
+  font-size: clamp(18px, 5vw, 34px);
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+/******* VIDEOS *********/
+.videos {
+  padding: 2rem 0 2rem;
+}
+
+.videos h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/**** EBOOKS ****/
+.livros-ebook {
+  max-width: 250px !important;
+  padding-bottom: 1.5rem;
+}
+
+.fundo-ebooks {
+  padding: 2rem 0 2rem;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.ebook h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.ebook p {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  text-transform: none;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+.ebook h3 {
+  color: #000000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+}
+
+/***** PERGUNSTAS FREQUENTES *******/
+.perguntas-frequentes {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem 0 2rem;
+  background-color: #f9f9f9;
+}
+
+.perguntas-frequentes h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/***** ACORDION *******/
+
+.btn-link {
+  width: 100%;
+  color: #000000 !important;
+  font-weight: bold !important;
+  text-align: left !important;
+  text-decoration: none !important;
+}
+
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  right: 5px;
+  top: 5px;
+  position: absolute;
+  /* background-color: #e8eeff; */
+  color: #f9b133;
+}
+
+.bordas-accordion {
+  border: none !important;
+  border-bottom: 1px solid #f9b133 !important;
+  border-left: 1px solid#f9b133 !important;
+  border-right: 1px solid#f9b133 !important;
+  border-radius: 0 !important;
+}
+
+.bordas-accordion:first-child {
+  border-top: 1px solid #f9b133 !important;
+}
+
+.bordas-accordion:last-child {
+  border-bottom: 1px solid #f9b133 !important;
+}
+
+.accordion {
+  background-color: none !important;
+  border: none !important;
+  background-color: #ffffff !important;
+}
+
+.btn-link.collapsed:after {
+  content: "\002B";
+  color: #f9b133;
+}
+
+.conteudo-acordion {
+  background-color: #f9f9f9 !important;
+}
+
+/********** SELOS ************/
+
+.selos {
+  padding: 2rem 0 2rem;
+}
+
+.selos img {
+  width: 100%;
+  max-width: 220px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+/********** RODAPE ************/
+
+#rodape {
+  color: #ffffff;
+  text-align: center;
+  background-color: #2a2a2a;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #000000;
+}
+
+#rodape h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.img-rodape {
+  width: 100%;
+  max-width: 180px;
+  margin: 0 auto 20px;
+  display: block;
+}
+
+.whats {
+  width: 100%;
+  max-width: 200px;
+}
+
+.correios {
+  max-width: 150px;
+}
+
+.telefone {
+  margin-bottom: 2px;
+}
+
+.email {
+  margin-bottom: 2px;
+}
+
+.termos {
+  margin-bottom: 0;
+}
+
+.termos a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.trocas {
+  margin-top: 0;
+}
+
+.trocas a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.copyright {
+  font-size: 14px;
+  margin-top: 25px;
+  font-weight: bold;
+}
+
+/********** WHATS ROLANTE ***************/
+
+#whatsapp-rolante {
+  text-align: right;
+  position: fixed;
+  /* z-index: 10000; */
+  bottom: 10px;
+  right: 0px;
+}
+
+/********** PC ***************/
+
+@media (min-width: 768px) {
+  .botao-whats {
+    width: 20%;
+  }
+}
+
+/********** MOBILE ***************/
+
+@media (max-width: 768px) {
+  .botao-whats {
+    width: 15%;
+  }
+
+  .como-varigold-funciona .img-container {
+    height: auto;
+  }
+}
+
+@media (max-width: 584px) {
+  .introduction {
+    background-image: url(../img/topo_mobile.jpg);
+    background-attachment: scroll;
+    background-position: top;
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
+
+  .introduction h1 + p + p {
+    margin-bottom: 20rem;
+  }
+
+  /* .video {
+    background-image: url(https://goldclubgroup-images.s3.us-east-1.amazonaws.com/websites/varigold/goldweek/img/fundo_secao2_mobile.webp);
+    background-size: cover;
+    background-position: center;
+  }
+
+  .valor {
+    font-size: 30px;
+  } */
+
+  #destaque {
+    width: 94%;
+  }
+
+  .clube-vip h2 {
+    line-height: 1 !important;
+  }
+}

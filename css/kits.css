@@ -1,0 +1,175 @@
+/* PC */
+
+.center {
+  text-align: center;
+}
+
+.kits {
+  margin-top: 20px;
+}
+
+.kit1,
+.corpo-kit1,
+.corpo-kit2,
+.corpo-kit3 {
+  cursor: pointer;
+}
+
+.div-accordion-txt {
+  border-radius: 10px 0px 0px 0px;
+  text-align: center;
+}
+
+.txt-frascos {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+}
+
+.div-accordion-frete {
+  background-color: #000000;
+  text-align: center;
+  border-radius: 0px 10px 0px 0px;
+  padding: 0;
+}
+
+.txt-frete {
+  color: white !important;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-top: 6px !important;
+  margin-bottom: 8px;
+  margin-left: -5px;
+}
+
+.accordion-kit {
+  width: 100%;
+}
+
+.botao-desconto {
+  background: #00f882;
+  border: none;
+  border-radius: 10px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 4px;
+  padding-right: 12px;
+  padding-left: 12px;
+  padding-bottom: 4px;
+  margin-bottom: 25px;
+}
+
+.valor-antigo {
+  text-decoration: line-through;
+  font-weight: 200;
+  margin-right: 15px;
+}
+
+.valor-novo {
+  font-weight: 600;
+}
+
+.parcela,
+.valor-parcelado {
+  text-transform: uppercase;
+  margin-top: 30px !important;
+  margin-bottom: 30px;
+}
+
+.botao-comprar {
+  background: #00f882;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+  padding-top: 10px;
+  padding-right: 25px;
+  padding-left: 25px;
+  padding-bottom: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.clube-vip {
+  margin-top: 20px;
+}
+
+.clube-vip h2 {
+  font-size: 22px;
+  color: #f9b133;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 0.5;
+}
+
+.clube-vip .subtitle {
+  color: #646464;
+  font-size: 16px;
+  text-align: initial;
+  line-height: 1.2;
+  margin-top: -5px;
+}
+
+.clube-vip .txt-min {
+  color: #646464;
+  font-size: 13px;
+}
+
+.clube-vip .detalhe {
+  line-height: 0.4;
+  letter-spacing: -17px;
+  font-size: 70px;
+  color: #f9b133;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  .valor-kit-mobile {
+    display: none !important;
+  }
+  .kit2 {
+    margin-top: -75px;
+    cursor: pointer;
+  }
+  .kit3 {
+    margin-top: -27px;
+    cursor: pointer;
+  }
+}
+
+/* Mobile */
+
+@media (max-width: 768px) {
+  .valor-kit-pc {
+    display: none;
+  }
+  .kit2,
+  .kit3 {
+    cursor: pointer;
+  }
+  .botao-desconto {
+    font-size: 10px;
+    max-width: 100%;
+    margin: 0;
+  }
+  .valor-antigo {
+    text-decoration: line-through;
+    font-weight: 500;
+    margin-right: 8px;
+    font-size: 15px;
+  }
+  .valor-novo {
+    font-size: 15px;
+  }
+  .div-parcela {
+    margin-top: -15px;
+  }
+  .botao-comprar {
+    margin-top: 0px;
+    width: 100%;
+  }
+}
