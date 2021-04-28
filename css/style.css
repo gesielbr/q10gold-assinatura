@@ -41,28 +41,30 @@ a:hover {
 
 .introduction h1 {
   color: #f9b133;
-  font-size: 28px;
+  font-size: clamp(24px, 4vw, 32px);
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 20px;
   margin-bottom: 0;
+  line-height: clamp(32px, 4vw, 44px);
 }
 
 .introduction h1 + p {
   color: #ffffff;
-  font-size: 22px;
   text-transform: uppercase;
   margin-bottom: 0;
+  font-size: clamp(24px, 4vw, 30px);
 }
 
 .introduction h1 + p + p {
   color: #ffffff;
-  font-size: 22px;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: clamp(22px, 4vw, 28px);
 }
 
 .destaque-topo {
+  margin: 3rem 0 3rem;
   background-color: #ffffff !important;
   box-shadow: 0px 0px 10px #00000029 !important;
 }
@@ -508,8 +510,17 @@ a:hover {
     background-repeat: no-repeat;
   }
 
-  .introduction h1 + p + p {
+  /* .introduction h1 + p + p {
     margin-bottom: 20rem;
+  } */
+
+  .destaque-topo {
+    margin: 0;
+  }
+
+  .img-topo {
+    width: 170px;
+    margin: 0 auto;
   }
 
   /* .video {
